@@ -6,7 +6,7 @@
 #    ▀▀███▀▀▀██▄  ███    ███ ▀███████████ ▀███████████ ꒐ Dev : @TH3BOSS
 #      ███    ██▄ ███    ███          ███          ███ ꒐ Dev : @OMMMM
 #      ███    ███ ███    ███    ▄█    ███    ▄█    ███
-#    ▄█████████▀   ▀██████▀   ▄████████▀   ▄████████▀  ꒐ Source TH3BOSS BY @TH3BS
+#    ▄█████████▀   ▀██████▀   ▄████████▀   ▄████████▀  ꒐ Source TH3BOSS BY @LSLHB
 #---------------------------------------------------------------------
 ]]
 
@@ -1106,10 +1106,10 @@ Name = data.first_name_ .." "..data.last_name_
 else 
 Name = data.first_name_ 
 end
-usernn = data.username_ or "th3bs"
+usernn = data.username_ or "LSLHB"
 else 
 Name = data.title_
-usernn = data.type_.user_.username_ or "th3bs"
+usernn = data.type_.user_.username_ or "LSLHB"
 end
 Name = Name:gsub('[[][]]','')
 Name = FlterName(Name,10)
@@ -1521,7 +1521,7 @@ local info  = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..i.."-l ["..info.username..'] \n'
 else
-message = message ..i.. '-l ['..info.username..'](t.me/TH3bs) \n'
+message = message ..i.. '-l ['..info.username..'](t.me/LSLHB) \n'
 end
 
 i=i+1
@@ -1533,7 +1533,7 @@ local info  = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..i.."-l ["..info.username..'] \n'
 else
-message = message ..i.. '-l ['..info.username..'](t.me/TH3bs) \n'
+message = message ..i.. '-l ['..info.username..'](t.me/LSLHB) \n'
 end
 i=i+1
 end 
@@ -1544,7 +1544,7 @@ local info  = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..i.."-l ["..info.username..'] \n'
 else
-message = message ..i.. '-l ['..info.username..'](t.me/TH3bs) \n'
+message = message ..i.. '-l ['..info.username..'](t.me/LSLHB) \n'
 end
 i=i+1
 end 
@@ -1555,7 +1555,7 @@ local info  = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..i.."-l ["..info.username..'] \n'
 else
-message = message ..i.. '-l ['..info.username..'](t.me/TH3bs) \n'
+message = message ..i.. '-l ['..info.username..'](t.me/LSLHB) \n'
 end
 i=i+1
 end 
@@ -1567,7 +1567,7 @@ local info  = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..i.."-l ["..info.username..'] \n'
 else
-message = message ..i.. '-l ['..info.username..'](t.me/TH3bs) \n'
+message = message ..i.. '-l ['..info.username..'](t.me/LSLHB) \n'
 end
 i=i+1
 end 
@@ -1586,7 +1586,7 @@ local count = redis:scard(boss..'mtwr_count'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..k.."-l ["..info.username..'] » (`' ..v.. '`){'..count..'} \n'
 else
-message = message ..k.. '-l ['..info.username..'](t.me/TH3bs) l » (`' ..v.. '`){'..count..'} \n'
+message = message ..k.. '-l ['..info.username..'](t.me/LSLHB) l » (`' ..v.. '`){'..count..'} \n'
 end
 end 
 end
@@ -1612,7 +1612,7 @@ local info = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..k.."-l ["..info.username..'] » (`' ..v.. '`) \n'
 else
-message = message ..k.. '-l ['..info.username..'](t.me/TH3bs) l » (`' ..v.. '`) \n'
+message = message ..k.. '-l ['..info.username..'](t.me/LSLHB) l » (`' ..v.. '`) \n'
 end
 end
 end
@@ -1627,7 +1627,7 @@ local info = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..k.."-l ["..info.username..'] » (`' ..v.. '`) \n'
 else
-message = message ..k.. '-l ['..info.username..'](t.me/TH3bs) l » (`' ..v.. '`) \n'
+message = message ..k.. '-l ['..info.username..'](t.me/LSLHB) l » (`' ..v.. '`) \n'
 end
 end
 end
@@ -1646,7 +1646,7 @@ local info = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..k.. '-l ['..(info.username or '')..'] » (`' ..v.. '`) \n'
 else
-message = message ..k.. '-l ['..info.username..'](t.me/TH3bs) l » (`' ..v.. '`) \n'
+message = message ..k.. '-l ['..info.username..'](t.me/LSLHB) l » (`' ..v.. '`) \n'
 end
 end
 end
@@ -1669,7 +1669,7 @@ local info = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..k.. '-l ['..(info.username or '')..'] » (`' ..v.. '`) \n'
 else
-message = message ..k.. '-l ['..info.username..'](t.me/TH3bs) l » (`' ..v.. '`) \n'
+message = message ..k.. '-l ['..info.username..'](t.me/LSLHB) l » (`' ..v.. '`) \n'
 end
 end
 end
@@ -1691,7 +1691,7 @@ local info = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..k.. '-l ['..info.username..'] » (`' ..v.. '`) \n'
 else
-message = message ..k.. '-l ['..info.username..'](t.me/TH3bs) l » (`' ..v.. '`) \n'
+message = message ..k.. '-l ['..info.username..'](t.me/LSLHB) l » (`' ..v.. '`) \n'
 end
 end
 if utf8.len(message) > 4096 then
@@ -1712,7 +1712,7 @@ local info = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..k.. '-l ['..info.username..'] » (`' ..v.. '`) \n'
 else
-message = message ..k.. '-l ['..info.username..'](t.me/TH3bs) l » (`' ..v.. '`) \n'
+message = message ..k.. '-l ['..info.username..'](t.me/LSLHB) l » (`' ..v.. '`) \n'
 end
 end
 if utf8.len(message) > 4096 then
@@ -1747,7 +1747,7 @@ local info = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..k.. '-l ['..info.username..'] » (`' ..v.. '`) \n'
 else
-message = message ..k.. '-l ['..info.username..'](t.me/TH3bs) l » (`' ..v.. '`) \n'
+message = message ..k.. '-l ['..info.username..'](t.me/LSLHB) l » (`' ..v.. '`) \n'
 end
 end
 if utf8.len(message) > 4096 then
@@ -1778,7 +1778,7 @@ local info = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..k.. '-l ['..info.username..'] » (`' ..v.. '`) \n'
 else
-message = message ..k.. '-l ['..info.username..'](t.me/TH3bs) l » (`' ..v.. '`) \n'
+message = message ..k.. '-l ['..info.username..'](t.me/LSLHB) l » (`' ..v.. '`) \n'
 end 
 end 
 if utf8.len(message) > 4096 then
@@ -1797,7 +1797,7 @@ local info = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..k.. '-l ['..info.username..'] » (`' ..v.. '`) \n'
 else
-message = message ..k.. '-l ['..info.username..'](t.me/TH3bs) l » (`' ..v.. '`) \n'
+message = message ..k.. '-l ['..info.username..'](t.me/LSLHB) l » (`' ..v.. '`) \n'
 end 
 end 
 if utf8.len(message) > 4096 then
@@ -1827,7 +1827,7 @@ local info = redis:hgetall(boss..'username:'..v)
 if info and info.username and info.username:match("@[%a%d_]+") then
 message = message ..k.. '-l ['..info.username..'] » (`' ..v.. '`) \n'
 else
-message = message ..k.. '-l ['..info.username..'](t.me/TH3bs) l » (`' ..v.. '`) \n'
+message = message ..k.. '-l ['..info.username..'](t.me/LSLHB) l » (`' ..v.. '`) \n'
 end
 end 
 if utf8.len(message) > 4096 then
